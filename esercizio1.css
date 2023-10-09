@@ -40,7 +40,7 @@ nav input[type="text"] {
     margin-right: 10px;
 }
 
-nav button.INVIA {
+nav button.invia {
     background-color: black;
     color: green;
     border: 1px solid green;
