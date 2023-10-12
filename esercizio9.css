@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav button.invia {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#dropdown {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Menu hamburger */
+.menu-icon {
+    display: none; /* Nascondo il menu a hamburger sopra i 768 pixel */
+    cursor: pointer;
+    font-size: 24px; /* Dimensione dell'icona */
+}
+
+/* Stile dell'icona */
+.menu-icon::before {
+    content: '\2630'; /* Stile dell'icona hamburger */
+    color: white; /* Colore delle linee dell'icona */
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Nascondo il menu standard sotto i 768 pixel */
+    }
+    
+    .menu-icon {
+        display: block; /* Mostro il menu a hamburger sotto i 768 pixel */
+}
+}
