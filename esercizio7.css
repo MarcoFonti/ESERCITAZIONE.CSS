@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: var(--colore-sfondo);
+    margin: 10px;
+}
+  
+.ball {
+    width: var(--larghezza-palla);
+    height: var(--altezza-palla);
+    background-color: var(--colore-sfondo-palla);
+    border-radius: var(--bordi-arrotondati-palla);
+}
+
+:root {
+    --colore-sfondo: #011212;
+    --larghezza-palla: 100px;
+    --altezza-palla: 100px;
+    --colore-sfondo-palla: #ff8800;
+    --bordi-arrotondati-palla: 50px;
+}
+  
+  
