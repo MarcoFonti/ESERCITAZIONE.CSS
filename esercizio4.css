@@ -4,39 +4,96 @@
     box-sizing: border-box;
 }
 
-body {
-    display: grid;
-    background-color:black
+.risulatato {
+    grid-area: risultato;
 }
-.grid-container {
+
+.più {
+    grid-area: piu;
+}
+
+.meno {
+    grid-area: meno;
+}
+
+.per {
+    grid-area: per;
+}
+
+.diviso {
+    grid-area: diviso;
+}
+
+.sette {
+    grid-area: sette;
+}
+
+.otto {
+    grid-area: otto;
+}
+
+.nove {
+    grid-area: nove;
+}
+
+.uguale {
+    grid-area: uguale;
+}
+
+.quattro {
+    grid-area: quattro;
+}
+
+.cinque {
+    grid-area: cinque;
+}
+
+.sei {
+    grid-area: sei;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.due {
+    grid-area: due;
+}
+
+.tre {
+    grid-area: tre;
+}
+
+.zerro {
+    grid-area: zerro;
+}
+
+.punto {
+    grid-area: punto;
+}
+
+.ac {
+    grid-area: ac;
+}
+
+.grid-contenitore {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+
+    'risultato risultato risultato risultato'
+    'piu meno per diviso'
+    'sette otto nove uguale'
+    'quattro cinque sei uguale'
+    'uno due tre uguale'
+    'zerro punto ac uguale';
     gap: 1px;
-    margin: 20px;
-    border: 10px solid white;
-    width: 400px;
-    height: 400px;
-}
-
-.grid-container > div {
-    text-align: center;
-    background-color: white;
-    font-size: 30px;
-}
-
-#item1 {
-    grid-column: 1 / 5;
-    text-align: end;
     background-color: black;
-    color: white; 
+    padding: 10px;
 }
 
-.item9 {
-    grid-column: 4;
-    grid-row: 3 /span 4;
-    background-color: red !important;
-}
-
-.item2, .item3, .item4, .item5 {
-    background-color: rgb(35, 195, 195) !important
-}
+.grid-contenitore > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+  }
