@@ -11,14 +11,14 @@ body {
 
 }
 
-nav {
+figure {
     background-color: rgb(80, 80, 205);
     text-align: center;
     padding: 10px;
     border: 10px solid white;
 }
   
-nav img {
+figure img {
     width: 400px;
     height: 300px;
 }
