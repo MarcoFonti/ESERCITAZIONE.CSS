@@ -4,76 +4,96 @@
     box-sizing: border-box;
 }
 
-.risulatato {
+.risultato {
     grid-area: risultato;
+    background-color: rgb(66, 64, 64);
+    text-align: end !important;
 }
 
 .più {
     grid-area: piu;
+    background-color: blue;
 }
 
 .meno {
     grid-area: meno;
+    background-color: blue;
 }
 
 .per {
     grid-area: per;
+    background-color: blue;
 }
 
 .diviso {
     grid-area: diviso;
+    background-color: blue;
 }
 
 .sette {
     grid-area: sette;
+    background-color: white;
 }
 
 .otto {
     grid-area: otto;
+    background-color: white;
 }
 
 .nove {
     grid-area: nove;
+    background-color: white;
 }
 
 .uguale {
     grid-area: uguale;
+    background-color: red;
+    padding-top: 150px !important;
 }
 
 .quattro {
     grid-area: quattro;
+    background-color: white;
 }
 
 .cinque {
     grid-area: cinque;
+    background-color: white;
 }
 
 .sei {
     grid-area: sei;
+    background-color: white;
 }
 
 .uno {
     grid-area: uno;
+    background-color: white;
 }
 
 .due {
     grid-area: due;
+    background-color: white;
 }
 
 .tre {
     grid-area: tre;
+    background-color: white;
 }
 
 .zerro {
     grid-area: zerro;
+    background-color: white;
 }
 
 .punto {
     grid-area: punto;
+    background-color: white;
 }
 
 .ac {
     grid-area: ac;
+    background-color: white;
 }
 
 .grid-contenitore {
@@ -92,8 +112,8 @@
 }
 
 .grid-contenitore > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
     font-size: 30px;
-  }
+}
+
