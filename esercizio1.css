@@ -54,3 +54,7 @@ nav button.invia {
     color: white;
     border: none;
 }
+
+.invia:hover{
+    background-color: white;
+}
