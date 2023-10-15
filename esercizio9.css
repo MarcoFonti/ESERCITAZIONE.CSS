@@ -56,9 +56,13 @@ nav button.invia {
     border: none;
 }
 
+.invia:hover {
+    background-color: white;
+}
+
 /* Menu hamburger */
 .menu-icon {
-    display: none; /* Nascondo il menu a hamburger sopra i 768 pixel */
+    display: none; /* Nascondo il menu hamburger sopra i 768 pixel */
     cursor: pointer;
     font-size: 24px; /* Dimensione dell'icona */
 }
